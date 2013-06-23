@@ -33,7 +33,6 @@ module.exports = function(fs, Buffer){
 
       // rewrite header
       fileStream.once('close', function(){
-        console.log('CLOSED')
         fs.stat(filePath, function(err, stat){
           fileStream = fs.createWriteStream(filePath, {flags: 'r+', start:0, end:43})
           fileStream.once('open', function(){
