@@ -1,0 +1,25 @@
+{
+  "name": "wave-file-stream",
+  "version": "0.0.0",
+  "description": "PCM Wave File stream for Node and Web FileSystem API",
+  "main": "main.js",
+  "browser": "browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/wave-file-stream.git"
+  },
+  "keywords": [
+    "pcm",
+    "web audio",
+    "FileSystem API",
+    "browser"
+  ],
+  "author": "Matt McKegg",
+  "license": "MIT",
+  "dependencies": {
+    "web-fs": "*"
+  }
+}
