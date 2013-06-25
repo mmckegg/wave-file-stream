@@ -20,6 +20,7 @@
   "author": "Matt McKegg",
   "license": "MIT",
   "dependencies": {
-    "web-fs": "*"
+    "web-fs": "*",
+    "through": "~2.3.4"
   }
 }
