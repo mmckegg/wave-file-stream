@@ -2,8 +2,6 @@
   "name": "wave-file-stream",
   "version": "0.0.0",
   "description": "PCM Wave File stream for Node and Web FileSystem API",
-  "main": "main.js",
-  "browser": "browser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +16,5 @@
     "browser"
   ],
   "author": "Matt McKegg",
-  "license": "MIT",
-  "dependencies": {
-    "web-fs": "*",
-    "through": "~2.3.4"
-  }
+  "license": "MIT"
 }
